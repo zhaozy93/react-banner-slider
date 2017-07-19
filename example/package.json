@@ -1,0 +1,53 @@
+{
+  "name": "mutil-page-webpack-react-eslint",
+  "version": "1.0.0",
+  "description": "快速启动一个多页面或者单页面基于React的webpack基本框架",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --progress --colors",
+    "build": "sh preProductionPacking.sh && rimraf ./dist && webpack --config webpack.config.production.js --progress --colors && sh postProductionPacking.sh"
+  },
+  "author": "johnny <zhaozy93@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "classnames": "^2.2.5",
+    "es5-shim": "^4.5.9",
+    "es6-promise": "^4.1.0",
+    "json-format-check": "0.0.1",
+    "omit.js": "^1.0.0",
+    "react": "^15.5.4",
+    "react-banner-slider": "^1.0.0",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.26.1",
+    "es3ify-loader": "^0.2.0",
+    "eslint": "^3.17.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "open-browser-webpack-plugin": "^0.0.3",
+    "postcss-loader": "^1.3.3",
+    "prop-types": "^15.5.8",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "rimraf": "^2.5.4 extraneous",
+    "style-loader": "^0.13.1",
+    "transfer-webpack-plugin": "^0.1.4",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
