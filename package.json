@@ -2,7 +2,14 @@
   "name": "react-banner-slider",
   "version": "1.0.0",
   "description": "banner slider based on react for web platform",
-  "main": "index.js",
+  "keywords": [
+    "slider",
+    "banner",
+    "front-end",
+    "web"
+  ],
+  "main": "react-banner-slider.js",
+  "author": "johnny (zhaozy93@outlook.com)",
   "directories": {
     "example": "example"
   },
@@ -13,8 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/zhaozy93/react-banner-slider.git"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhaozy93/react-banner-slider/issues"
   },
