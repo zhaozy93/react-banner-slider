@@ -17,7 +17,7 @@
     "json-format-check": "0.0.1",
     "omit.js": "^1.0.0",
     "react": "^15.5.4",
-    "react-banner-slider": "^1.0.0",
+    "react-banner-slider": "^1.1.0",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
