@@ -6,7 +6,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Banner from 'react-banner-slider';
-console.log(Banner);
 ReactDOM.render(
   <Banner className='111' style={{marginTop: 30}} duration={1} stopDuration={500} direction={true} autoPlayer={true}>
     <Banner.Item className='saqw' key={1} backgroundSrc={'./static/1.jpg'}>
